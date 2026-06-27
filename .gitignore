@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+
+# IDE / Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.xml
+
+# Environment variables & secrets
+.env
+backend/.env
+
+# Virtual environment folder
+.venv/
+venv/
+env/
+ENV/
+
+# Local FAISS vector storage database
+backend/data/*
+!backend/data/.gitkeep
